@@ -1,8 +1,17 @@
 body {
-  color: #444444;
+  color: #40414E;
   margin: 0;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+hr {
+  margin-top: 50px;
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 8%;
 }
 
 h1 {
@@ -37,10 +46,11 @@ h3 {
   display: block;
   overflow: hidden;
   position: relative;
+  padding-bottom: 30px;
 }
 
 .bottom-container {
-  background-color: #F1F1F1;
+  background-color: #66BFBF;
   display: block;
   overflow: hidden;
   position: relative;
@@ -50,6 +60,8 @@ h3 {
   font-size: 2.1rem;
   font-weight: normal;
   line-height: 2;
+  width: 55%;
+  margin: auto;
 }
 
 .mountain {
@@ -130,10 +142,33 @@ h3 {
 
 .contact-me {
   color: #444444;
+  margin: 0 0 30px 0;
 }
 
 .btn {
-  color: #444444;
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
 }
 
 .linkedin-icon {
@@ -176,4 +211,9 @@ h3 {
 
 .spacing-td {
   padding: 10px 25px;
+}
+
+.signature {
+  color: #F1F1F1;
+  font-size: 1rem;
 }
