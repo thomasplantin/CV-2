@@ -7,27 +7,29 @@ body {
 
 h1 {
   color: #444444;
-  margin-top: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 5.625rem;
 }
 
 h2 {
-  color: #444444;
+  color: #66BFBF;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2rem;
 }
 
 h3 {
-  color: #444444;
+  color: #11999E;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /******************************************************CLASSES******************************************************/
 .top-container {
-  background-color: #F1F1F1;
+  background-color: #C8E6F5;
   display: block;
   overflow: hidden;
   position: relative;
-  padding-top: 10px;
+  padding-top: 80px;
 }
 
 .middle-container {
@@ -44,17 +46,53 @@ h3 {
   position: relative;
 }
 
-.circuit-image {
-  height: 359px;
+.font-top-paragraph {
+  font-size: 2.1rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.mountain {
+  margin: auto;
+  height: 530px;
+  position: relative;
+  top: 20px;
+}
+
+.top-cloud {
+  height: 150px;
+  position: absolute;
+  top: 330px;
+  right: 120px;
+}
+
+.bottom-cloud {
+  height: 200px;
+  position: absolute;
+  top: 380px;
+  left: 120px;
 }
 
 .profile-picture {
-  height: 400px;
+  height: 300px;
   border-radius: 15%;
+  margin: 20px auto;
+}
+
+.h2-spacing {
+  margin: 50px auto;
 }
 
 .icons-skills {
-  margin: auto auto;
+  margin: 50px auto;
+}
+
+.python {
+  height: 50px;
+}
+
+.javascript {
+  height: 50px;
 }
 
 .html-5 {
@@ -63,15 +101,31 @@ h3 {
 
 .css-3 {
   height: 50px;
-
 }
 
-.javascript {
-  height: 50px;
+.hobbies {
+  margin: auto auto;
 }
 
-.python {
-  height: 50px;
+.hobby-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.diy-electronics {
+  width: 25%;
+  border-radius: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.traveling {
+  width: 25%;
+  border-radius: 15%;
+  float: right;
+  margin-left: 30px;
 }
 
 .contact-me {
@@ -93,23 +147,23 @@ h3 {
 }
 
 .linkedin-icon:hover {
-  position:relative;
-  top:-3px;
-  left:-3px;
-  width:36px;
-  height:36px;
-  display:block;
-  z-index:999;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  width: 36px;
+  height: 36px;
+  display: block;
+  z-index: 999;
 }
 
 .instagram-icon:hover {
-  position:relative;
-  top:-3px;
-  left:-3px;
-  width:36px;
-  height:36px;
-  display:block;
-  z-index:999;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  width: 36px;
+  height: 36px;
+  display: block;
+  z-index: 999;
 }
 
 .icons-skills {
@@ -118,7 +172,6 @@ h3 {
 
 .icons-insta-linkedin {
   margin: auto auto;
-  table-layout: fixed;
 }
 
 .spacing-td {
