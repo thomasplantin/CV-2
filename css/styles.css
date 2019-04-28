@@ -53,8 +53,8 @@ h3 {
   border-radius: 15%;
 }
 
-.table {
-  margin-left: 42%;
+.icons-skills {
+  margin: auto auto;
 }
 
 .html-5 {
@@ -85,31 +85,42 @@ h3 {
 .linkedin-icon {
   height: 30px;
   width: 30px;
-  position: absolute;
-  left: 630px;
-  top: 22px;
 }
 
 .instagram-icon {
   height: 30px;
   width: 30px;
-  position: absolute;
-  left: 717px;
-  top: 22px;
 }
 
 .linkedin-icon:hover {
-  height: 36px;
-  width: 36px;
-  position: absolute;
-  left: 627px;
-  top: 19px;
+  position:relative;
+  top:-3px;
+  left:-3px;
+  width:36px;
+  height:36px;
+  display:block;
+  z-index:999;
 }
 
 .instagram-icon:hover {
-  height: 36px;
-  width: 36px;
-  position: absolute;
-  left: 714px;
-  top: 19px;
+  position:relative;
+  top:-3px;
+  left:-3px;
+  width:36px;
+  height:36px;
+  display:block;
+  z-index:999;
+}
+
+.icons-skills {
+  margin: auto auto;
+}
+
+.icons-insta-linkedin {
+  margin: auto auto;
+  table-layout: fixed;
+}
+
+.spacing-td {
+  padding: 10px 25px;
 }
